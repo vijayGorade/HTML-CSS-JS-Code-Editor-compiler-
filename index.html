@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://cdn.boxicons.com/fonts/brands/boxicons-brands.min.css' rel='stylesheet'>
+    <link href='https://cdn.boxicons.com/fonts/basic/boxicons.min.css' rel='stylesheet'>
+    <title>html editor</title>
+</head>
+<body>
+    <div class="wholeDiv">
+    <div class="headerDiv">
+       <div class="hedingDiv">
+         <button class="html">HTML</button>
+        <button class="css">CSS</button>
+        <button class="js">JavaScript</button>
+       </div>
+       <div class="runAndModeDiv">
+        <button class="runBtn">Run</button>
+        <i class='bx  bx-moon-star' id="DLbtn"></i> 
+       </div>
+    </div>
+    
+<div class="mainCodeEditor">
+<textarea name="" id="html" placeholder="Write HTML code here.."></textarea>
+<textarea name="" id="css" placeholder="Write CSS code here.."></textarea>
+<textarea name="" id="js" placeholder="Write JavaScript code here.."></textarea>
+
+</div>
+</div>
+
+<div class="outputDiv">
+   
+<iframe  id="output" class="output"></iframe>
+<button class="exitBtn">Go Back To Code</button>
+</div>
+ <script src="app.js"></script>
+</body>
+</html>
+
+

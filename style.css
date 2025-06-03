@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*sunilkawle95*/
+body{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.headerDiv{
+    display: flex;
+   height: 50px;
+   width: 100%;
+   flex-direction: row;
+   gap:20px;
+   background-color: red;
+   align-items: center;
+   background-color: rgb(37, 37, 37);
+   justify-content: space-between;
+   color: white;
+}
+.hedingDiv button{
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+cursor: pointer;
+user-select: none;
+border: none;
+color: white;
+height: 100%;
+padding-left: 5px;
+padding-right: 5px;
+
+}
+
+.hedingDiv{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    height: 100%;
+align-items: center;;
+}
+.html{
+    background: blue;
+}
+.css{
+background-color: transparent;
+}
+.js{
+    background-color: transparent;
+}
+
+.mainCodeEditor{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  width: 100%;
+}
+
+.mainCodeEditor textarea{
+    width: 100%;
+    height:100%;
+    padding: 15px;
+    border: none;
+    position: absolute;
+    outline: none;
+    font-size: 20px;
+    resize: none;
+  
+}
+#html{
+display: block;
+}
+#css{
+   display: none; 
+}
+#js{
+  display: none;  
+}
+
+.runAndModeDiv{
+    display: flex;
+   margin-right: 200px;
+   gap: 10px;
+   align-items: center
+                                                                                ;
+}
+.runAndModeDiv i{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 18px;
+}
+.runAndModeDiv button{
+    background-color: rgb(247, 156, 52);
+color: white;
+height:40px;
+padding: 13px;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 18px;
+border-radius: 5px;
+border:none;
+display: flex;
+align-items: center;
+justify-content: center;
+cursor: pointer;
+}
+#output{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-color: white;
+    top:50px;
+z-index: 1;
+} 
+.outputDiv{
+    visibility: hidden;
+}
+.outputDiv{
+    display: flex;
+    flex-direction: column;
+}
+.outputDiv button{
+     position: relative;
+    height:40px;
+    width: 200px;
+   
+bottom: 45px;
+cursor: pointer;
+float: left;
+font-size: 20px;
+background-color: rgb(30, 158, 30);
+color: white;
+border: none;
+border-radius: 20px;
+}
